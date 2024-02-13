@@ -83,22 +83,22 @@
                 </div>
                 <!-- Rhombus card -->
                 <div class="card w-96 bg-base-100 shadow-xl">
-                  <figure><img src="images/rectangle.png" alt="Shoes" /></figure>
+                  <figure><img src="images/rhombus.png" alt="Shoes" /></figure>
                   <div class="card-body">
-                    <h2 class="card-title">Rectangle!</h2>
-                    <p class="text-center text-xl">Area = w X l</p>
+                    <h2 class="card-title">Rhombus!</h2>
+                    <p class="text-center text-xl">Area = 0.5 X d<sub>1</sub> X d<sub>2</sub></p>
                     <!-- input field -->
                     <div class="flex-1">
-                      <input id="rectanlge-width" class="w-2/5 text-2xl p-2 rounded-sm" type="text" name="" id="" placeholder="w"> 
+                      <input id="rhombus-d1" class="w-2/5 text-2xl p-2 rounded-sm" type="text" name="" id="" placeholder="d1"> 
                       <span>cm</span>
-                      <input id="rectangle-length" class="w-2/5 text-2xl p-2 rounded-sm"  type="text" name="" placeholder="l"> 
+                      <input id="rhombus-d2" class="w-2/5 text-2xl p-2 rounded-sm"  type="text" name="" placeholder="d2"> 
                       <span>cm</span>
                     </div>
                     <div>
-                      <p class="text-xl">Area: <span id="rectangle-area"></span> cm<sup>2</sup></p>
+                      <p class="text-xl">Area: <span id="rhombus-area"></span> cm<sup>2</sup></p>
                     </div>
                     <div class="card-actions">
-                      <button class="btn btn-primary w-full" onclick="rectangleArea()">Calculate</button>
+                      <button class="btn btn-primary w-full" onclick="rhombusArea()">Calculate</button>
                     </div>
                   </div>
                 </div>
@@ -159,7 +159,9 @@
     <script src="scripts/common.js"></script>
     <script src="scripts/triangle.js">
     </script>
-    <script src="scripts/rectangle.js"></script>
+    <script src="scripts/rectangle.js">
+    </script>
+    <script src="scripts/rhombus.js"></script>
     <script src="scripts/pentagon.js"></script>
     <script src="scripts/ellipse.js"></script>
 </body>
