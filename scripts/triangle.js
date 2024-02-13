@@ -20,7 +20,7 @@ function triangleArea() {
     const calc = document.createElement('p');
     calc.innerHTML = "Area: " + area + "cm<sup>2</sup>";
     // 3 ways to set attributes
-    calc.style.marginTop = '40px';
+    calc.style.marginTop = '32px';
     calc.classList.add('text-3xl');
     // calc.setAttribute('style', 'font-weight: bold')
 
