@@ -7,7 +7,7 @@ function rectangleArea() {
     document.getElementById('rectangle-area').innerText = area;
 
     const calc = document.createElement('p');
-    calc.classList.add('text-3xl', 'mt-5');
-    calc.innerHTML = 'Rectangle Area: ' + area + 'cm<sup>2</sup>'
+    calc.classList.add('text-xl', 'mt-5');
+    calc.innerHTML = "<p class='font-semibold'>Rectangle Area:</p> " + area + 'cm<sup>2</sup>'
     document.getElementById('sidebar').append(calc);
 }

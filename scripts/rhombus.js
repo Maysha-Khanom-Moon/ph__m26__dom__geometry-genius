@@ -6,7 +6,7 @@ function rhombusArea() {
     document.getElementById('rhombus-area').innerText = area;
 
     const calc = document.createElement('p');
-    calc.classList.add('text-3xl', 'mt-5');
-    calc.innerHTML = 'Rhombus Area: ' + area + 'cm<sup>2</sup>'
+    calc.classList.add('text-xl', 'mt-5');
+    calc.innerHTML = "<p class='font-semibold'>Rhombus Area:</p> " + area + 'cm<sup>2</sup>'
     document.getElementById('sidebar').append(calc);
 }

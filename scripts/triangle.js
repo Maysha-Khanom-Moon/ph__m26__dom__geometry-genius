@@ -18,10 +18,10 @@ function triangleArea() {
     // show at the sidebar
     // create an element
     const calc = document.createElement('p');
-    calc.innerHTML = "Triangle Area: " + area + "cm<sup>2</sup>";
+    calc.innerHTML = "<p class='font-semibold'>Triangle Area:</p> " + area + "cm<sup>2</sup>";
     // 3 ways to set attributes
     calc.style.marginTop = '20px';
-    calc.classList.add('text-3xl');
+    calc.classList.add('text-xl');
     // calc.setAttribute('style', 'font-weight: bold')
 
     // append
